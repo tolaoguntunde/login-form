@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c98368;
+    color:#EDCFA9;
+    font-size: 0.75rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+h1{
+    margin-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.container{
+background-color: #7C3C21;
+padding: 20px;
+border-radius: 2px;
+position: relative;
+width:20%;
+}
+
+.btn{
+    border-style: none;
+    background-color: #d3391e;
+    padding:10px ;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: #EDCFA9;
+    width:100%;
+}
+
+.form-control{
+    display:flex ;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+
+input{
+    margin-top: 10px;
+    border-style: none;
+    padding:5px;
+    outline: none;
+    border-bottom:solid #EDCFA9 ; 
+    background-color: #7C3C21;
+    color:white;
+    
+}
+
+.update{
+    border-bottom:solid #d3391e ;
+}
+
+a{
+    color:#d3391e;
+    text-decoration: none;
+}
+
+
+
+/* span{
+    animation: bounce;
+    position: relative;
+    animation-duration: 2s;
+}
+
+@keyframes bounce {
+     0%{bottom: 20px}
+     25%{bottom: 0px}
+     50%{top: 20px}
+     75%{top: 20px}
+     100%{top: 0px}
+     
+} */
+
+label{
+    position: relative;
+    transition: transform 2s;   
+}
+
+label:hover{
+    transform: translateY(20px);
+}
