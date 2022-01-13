@@ -87,11 +87,30 @@ a{
      
 } */
 
-label{
+/* label{
     position: relative;
     transition: transform 2s;   
 }
 
 label:hover{
     transform: translateY(20px);
+} */
+
+span{
+    position:relative;
+    transition: animation 2s;
+}
+
+span:hover{
+    animation-name:bounce;
+    animation-duration: 2s;
+}
+
+@keyframes bounce {
+    0%{bottom: 20px}
+    25%{bottom: 0px}
+    50%{top: 20px}
+    75%{top: 20px}
+    100%{top: 0px}
+    
 }
