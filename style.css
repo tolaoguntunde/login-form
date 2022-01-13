@@ -41,7 +41,13 @@ width:20%;
     margin-top: 20px;
     color: #EDCFA9;
     width:100%;
+    cursor:pointer;
 }
+
+.btn:hover{
+background-color: #FF6363;
+}
+
 
 .form-control{
     display:flex ;
